@@ -183,6 +183,10 @@ if TYPE_CHECKING:
     from langchain_community.tools.metaphor_search import (
         MetaphorSearchResults,
     )
+    from langchain_community.tools.mcp.tool import (
+        MCPTool,
+        MCPResourceTool,
+    )
     from langchain_community.tools.mojeek_search.tool import (
         MojeekSearch,
     )
@@ -434,6 +438,8 @@ __all__ = [
     "ListSparkSQLTool",
     "MerriamWebsterQueryRun",
     "MetaphorSearchResults",
+    "MCPTool",
+    "MCPResourceTool",
     "MojeekSearch",
     "MoveFileTool",
     "NasaAction",
@@ -588,6 +594,8 @@ _module_lookup = {
     "ListSparkSQLTool": "langchain_community.tools.spark_sql.tool",
     "MerriamWebsterQueryRun": "langchain_community.tools.merriam_webster.tool",
     "MetaphorSearchResults": "langchain_community.tools.metaphor_search",
+    "MCPTool": "langchain_community.tools.mcp.tool",
+    "MCPResourceTool": "langchain_community.tools.mcp.tool",
     "MojeekSearch": "langchain_community.tools.mojeek_search.tool",
     "MoveFileTool": "langchain_community.tools.file_management",
     "NasaAction": "langchain_community.tools.nasa.tool",
