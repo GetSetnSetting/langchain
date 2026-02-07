@@ -40,7 +40,7 @@
     "react-dom": "^18",
     "typescript": "^5.2.2",
     "uuid": "^9.0.0",
-    "webpack": "^5.75.0"
+    "webpack": "^5.104.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.2",
